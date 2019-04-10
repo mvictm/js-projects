@@ -1,3 +1,4 @@
+"use strict";
 /**
  * console.log allows print results to console (Press F12, if you use Chrome, and switch tab to Console.
  * */
