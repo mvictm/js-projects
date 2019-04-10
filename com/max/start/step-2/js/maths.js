@@ -7,12 +7,11 @@ var first = 7;
 var second = 9;
 var string = "string";
 var stringDigit = "9";
-var boolean = true;
 
-console.log("first: ",first);
-console.log("second: ",second);
-console.log("string: ",string);
-console.log("stringDigit: ",stringDigit);
+console.log("first: ", first);
+console.log("second: ", second);
+console.log("string: ", string);
+console.log("stringDigit: ", stringDigit);
 /**
  * Standard operation
  * */
@@ -29,7 +28,7 @@ document.write("Division with remainder: ", first % second, "<br>");
  * */
 document.write("String plus digit: ", first + string, "<br>");
 document.write("Digit plus string digit: ", first + stringDigit, "<br>");
-document.write("Digit plus string digit with additional plus: ", first + +stringDigit, "<br>","<br>");
+document.write("Digit plus string digit with additional plus: ", first + +stringDigit, "<br>", "<br>");
 
 /**
  * Remark about equal sign in JS:
@@ -37,5 +36,11 @@ document.write("Digit plus string digit with additional plus: ", first + +string
  * == means compare values
  * === means compare types
  * */
-document.write("Compare second and stringDigit by means of double equal sign: ", stringDigit == second,"<br>");
-document.write("Compare second and string: ", stringDigit === second);
+document.write("Compare second and stringDigit by means of double equal sign: ", stringDigit == second, "<br>");
+document.write("Compare second and string: ", stringDigit === second, "<br>", "<br>");
+
+/**
+ * If we compare strings, which contains only digit, don't forget about this rule: compare each symbol
+ * */
+document.write("2 > 14 (strings): ", "2" > "14", " Because 2 > 1, so other symbols don't count", "<br>");
+document.write("2 > 14 (digits): ", +"2" > +"14");

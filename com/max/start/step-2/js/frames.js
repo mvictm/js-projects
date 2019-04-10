@@ -6,7 +6,7 @@ alert("Hello");
 
 /**
  * Frame allows enter data and send to server.
-* */
+ * */
 prompt("How are you?", "I'm fine");
 
 /**

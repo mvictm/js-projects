@@ -2,16 +2,28 @@
 <html lang="en">
 <head>
     <script defer src="js/frames.js"></script>
+    <script>
+        let frameInfo = prompt("Please, enter your name", "");
+    </script>
     <title>Step 2</title>
 </head>
 <body>
-<div>
-    <h1>Step 2</h1>
+<div class="block_title">
+    <h2>Frames</h2>
 </div>
 <div>
     <p>
         Show different frames, which allows communicate with user.
     </p>
+</div>
+<div>
+    <p>
+        Hello,
+        <script>document.write(frameInfo)</script>
+    </p>
+</div>
+<div class="block_title">
+    <h2>Math</h2>
 </div>
 <div>
     <p>
