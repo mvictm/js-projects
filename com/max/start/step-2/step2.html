@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="../css/main.css" rel="stylesheet">
     <script defer src="js/frames.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script>
         let frameInfo = prompt("Please, enter your name", "");
     </script>
     <title>Step 2</title>
 </head>
 <body>
-<div class="block_title">
-    <h2>Frames</h2>
-</div>
-<div>
-    <p>
-        Show different frames, which allows communicate with user.
-    </p>
-</div>
-<div>
-    <p>
-        Hello,
-        <script>document.write(frameInfo)</script>
-    </p>
-</div>
-<div class="block_title">
-    <h2>Math</h2>
-</div>
-<div>
-    <p>
-        Maths operation
-    </p>
-    <script src="js/maths.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#content').load("../components/html/header.html")
+    });
+</script>
+<header id="content">
+
+</header>
+<div class="page">
+    <div class="block_title">
+        <h2>Frames</h2>
+    </div>
+    <div>
+        <p>
+            Show different frames, which allows communicate with user.
+        </p>
+    </div>
+    <div>
+        <p>
+            Hello,
+            <script>document.write(frameInfo)</script>
+        </p>
+    </div>
+    <div class="block_title">
+        <h2>Math</h2>
+    </div>
+    <div>
+        <p>
+            Maths operation
+        </p>
+        <script src="js/maths.js"></script>
+    </div>
 </div>
 </body>
 </html>

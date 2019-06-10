@@ -3,38 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#content').load("components/html/header.html")
+        });
+    </script>
 </head>
 <body>
-<h1>
-    JavaScript tutorial
-</h1>
-<div class="main_block">
-    <ol>
-        <li>
-            <div class="block">
-                <div class="block_title">
-                    <h2>Types & compare in console</h2>
-                </div>
+<header id="content">
+</header>
+<div class="page">
+    <div class="main_block">
+        <div class="block">
+            <div class="block_title">
+                <h2>Types & Compare</h2>
+            </div>
+            <div class="reference">
                 <a href="step-1/step1.html">Step 1</a>
             </div>
-        </li>
-        <li>
-            <div class="block">
-                <div class="block_title">
-                    <h2>Frames & math</h2>
-                </div>
+        </div>
+        <div class="block">
+            <div class="block_title">
+                <h2>Frames & math</h2>
+            </div>
+            <div class="reference">
                 <a href="step-2/step2.html">Step 2</a>
             </div>
-        </li>
-        <li>
-            <div class="block">
-                <div class="block_title">
-                    <h2>Conditions & loops</h2>
-                </div>
+        </div>
+        <div class="block">
+            <div class="block_title">
+                <h2>Conditions & loops</h2>
+            </div>
+            <div class="reference">
                 <a href="step-3/step3.html">Step 3</a>
             </div>
-        </li>
-    </ol>
+        </div>
+        <div class="block">
+            <div class="block_title">
+                <h2>New range</h2>
+            </div>
+            <div class="reference">
+                <a href="">Step 4</a>
+            </div>
+        </div>
+    </div>
 </div>
+<script>
+    $(document).ready(function () {
+        $('#footer_page').load("components/html/footer.html")
+    });
+</script>
+<footer id="footer_page">
+</footer>
 </body>
 </html>

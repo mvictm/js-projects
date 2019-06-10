@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="../css/main.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <title>Step 3</title>
     <script src="js/conditions.js"></script>
 </head>
 <body>
-<div class="block_title">
-    <h2>Conditions</h2>
-</div>
-<div>
-    <div>
-        <p>
-            You can see this massage, if you enter age > 17
-        </p>
-    </div>
+<script>
+    $(document).ready(function () {
+        $('#content').load("../components/html/header.html")
+    });
+</script>
+<header id="content">
+
+</header>
+<div class="page">
     <div class="block_title">
-        <h2>Loops</h2>
+        <h2>Conditions</h2>
     </div>
-    <div class="result">
-        <div class="text">
+    <div>
+        <div>
             <p>
-                Script result
+                You can see this massage, if you enter age > 17
             </p>
-            <script src="js/loops.js"></script>
+        </div>
+        <div class="block_title">
+            <h2>Loops</h2>
+        </div>
+        <div class="result">
+            <div class="text">
+                <p>
+                    Script result
+                </p>
+                <script src="js/loops.js"></script>
+            </div>
         </div>
     </div>
 </div>

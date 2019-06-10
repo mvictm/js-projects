@@ -1,0 +1,48 @@
+.main_list {
+    align-content: center;
+}
+
+.steps {
+    text-align: center;
+}
+
+.main_title {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.start_title {
+    margin-top: 30px;
+}
+
+.main_block {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_title {
+    padding: 10px;
+    margin: 20px;
+}
+
+.block {
+    margin: 7px;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.block:hover {
+    box-shadow: 5px 5px 10px lightslategrey;
+}
+
+.reference {
+    position: relative;
+    bottom: 0;
+    margin: 5px;
+    padding: 5px;
+    border: 3px black solid;
+}

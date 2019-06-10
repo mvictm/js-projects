@@ -1,6 +1,8 @@
 "use strict";
 /**
  * Simple frame. If we set flag (async or defer) in page can load without frames. But async don't work in Chrome
+ *
+ * @return nothing
  * */
 alert("Hello");
 
