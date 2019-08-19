@@ -21,18 +21,20 @@
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+    position: center;
 }
 
 .block_title {
     padding: 10px;
-    margin: 20px;
 }
 
 .block {
-    margin: 7px;
+    margin-top: 30px;
+    margin-left: 20px;
     padding: 5px;
     text-align: center;
     width: 30%;
+
 }
 
 .block:hover {

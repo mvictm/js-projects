@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="../css/main.css" rel="stylesheet">
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/pages.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="js/magic.js"></script>
     <link href="css/step4.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Step 4</title>
 </head>
 <body>
 <script>
     $(document).ready(function () {
-        $('#content').load("../components/html/header.html")
+        $('#content').load("../../components/html/header.html")
     });
 </script>
-<header id="content">
-
-</header>
+<header id="content"></header>
+<div class="block_code">
+    <script src="js/magic.js"></script>
+</div>
 <div class="page">
     <div class="">
-        <p class="text">Look at the magic code below</p>
+        <p class="text">Look at the magic code below and answer</p>
     </div>
-    <div class="code">
+    <div class="block_code">
     <pre>
         "" + 1 + 0
         "" - 1 + 0
@@ -81,5 +82,12 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+        $('#footer_page').load("../../components/html/footer.html")
+    });
+</script>
+<footer id="footer_page">
+</footer>
 </body>
 </html>

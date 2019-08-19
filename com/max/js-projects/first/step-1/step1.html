@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="../../css/main.css" rel="stylesheet">
+    <link href="../../css/pages.css" rel="stylesheet">
+    <script defer src="js/compare.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <title>Step 1</title>
+</head>
+<script>
+    $(document).ready(function () {
+        $('#content').load("../../components/html/header.html")
+    });
+</script>
+<body>
+<header id="content"></header>
+<div class="page">
+    <div class="block_title">
+        <h2>Compare in console</h2>
+    </div>
+    <div class="helpful_block">
+        <p>
+            Please, check your console Press F12 and change tab. We compare NaN, null and undefined with 0 and each
+            over.
+        </p>
+        <p>
+            Moreover, check each type in JS.
+        </p>
+    </div>
+    <div class="block_title">
+        <h2>Types in JavaScript</h2>
+    </div>
+    <div class="result">
+        <a class="main-item" href="javascript:void(0);" tabindex="1">Script result</a>
+        <ul class="sub-menu">
+            <li>
+                <script src="js/types.js"></script>
+            </li>
+        </ul>
+    </div>
+    <div class="real_code clearFix">
+        <pre>
+            <code>
+                document.write("Type: ", typeof string, "Value: ", string);
+                document.write("Type: ", typeof string, "Value: ", integer);
+                document.write("Type: ", typeof string, "Value: ", boolean);
+                document.write("Type: ", typeof null, "Value: ", null, "Remember! Null isn't a object!");
+            </code>
+        </pre>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#footer_page').load("../../components/html/footer.html")
+    });
+</script>
+<footer id="footer_page" class="clearFix">
+</footer>
+</body>
+</html>

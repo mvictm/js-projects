@@ -1,0 +1,19 @@
+.footer_line {
+    border-top: solid 1px black;
+}
+
+.inline_item {
+    display: inline-block;
+}
+
+.ul_block {
+    list-style: none;
+    text-align: center !important;
+}
+
+.footer_block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

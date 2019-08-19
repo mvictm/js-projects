@@ -47,3 +47,29 @@ if (question !== null && question !== " " && question.length !== 0 && isFinite(+
     alert("It's not a number");
     location.reload();
 }
+
+/**
+ * Condition switch
+ * */
+var variable = prompt("Enter the variable, which stay between 1 and 4");
+switch (+   variable) {
+    case 1:
+        alert('Your choice is one: Ok');
+        break;
+
+    case 2:
+        alert('Your choice is two: Good');
+        break;
+
+    case 3:
+        alert('Your choice is three: The Best');
+        break;
+
+    case 4:
+        alert('Your choice is four: Unbelievable');
+        break;
+
+    default:
+        alert('Your variables not supported!');
+        break;
+}
